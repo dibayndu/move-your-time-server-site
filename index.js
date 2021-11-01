@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb');
 const ObjectId = require('mongodb').ObjectId;
 const cors = require('cors');
 require('dotenv').config();
-const client = new MongoClient;
+// const client = new MongoClient;
 
 
 const app = express();
